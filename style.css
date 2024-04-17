@@ -21,7 +21,7 @@ nav{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-left: 226px;
+    margin-left: 180px;
 }
 
 nav>ul{
@@ -50,4 +50,58 @@ nav button{
 }
 .margin{
     margin-top: 18px;
+}
+
+/* style for header */
+.background{
+
+    background-color: #FFF8F3;
+}
+.banner{
+    padding:30px 30px 30px 180px;
+    display: flex;
+    align-items: center;
+}
+.banner-greeting{
+    color: #474747;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.banner-title{
+    color: #181818;
+   
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-pera{
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.download-cv{
+    width: 200px;
+    background: #FD6E0A;
+    color: #FFF;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.contact{
+    width: 160px;
+    border: 1px solid #FD6E0A;
+    background: #FFF8F3;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+}
+.hardy-image{
+    width: 474px;
+    height: 566px;
+    flex-shrink: 0;
 }
