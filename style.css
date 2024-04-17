@@ -1,0 +1,53 @@
+/* common shared style */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+button{
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+
+/* style for nav */
+nav{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 226px;
+}
+
+nav>ul{
+    display: flex;
+  
+    margin-left: 500px;
+}
+nav li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li>a{
+    text-decoration: none;
+    color: #474747;
+}
+
+nav button{
+    width: 150px;
+    background: #FD6E0A;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+}
+.margin{
+    margin-top: 18px;
+}
