@@ -317,6 +317,73 @@ footer{
     font-size: 20px;
     font-weight: 700;
 
+
+}
+
+.hide{
+    display: none;
+}
+
+/* for mobile view */
+@media screen and (max-width: 576px) {
+    .skill-container,.resume-container,footer,.info-container,.banner,nav{
+        flex-direction: column;
+    }
+    .background{
+        background-image: none;
+    }
+    .banner{
+        padding-left: 30px;
+    }
+    .hardy-image{
+        height: 100%;
+        width: 100%;
+    }
+    nav>ul{
+        margin-right: 0px;
+    }
+    .nav-title{
+        margin-left: 0px;
+    }
+    button{
+        margin-bottom: 10px;
+    }
+    .info-description{
+        text-align: center;
+    }
+    .what-i-do-description{
+        padding: 0px 20px;
+    }
+    footer,.about-me{
+        padding: 10px;
+        
+    }
+    .footer-column{
+        width:100%;
+    }
+    .input-form input[type="text"],.input-form input[type="email"],textarea{
+        width: 80%;
+    }
+
+}
+
+@media screen  and (min-width: 576px) and (max-width:930px) {
+    .about-me{
+        padding: 130px 90px;
+    }
+    footer{
+        padding: 130px 100px;
+    }
+    button{
+        margin-bottom: 10px;
+    }
+    nav>ul {
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .resume{
+        padding: 0px 20px;
+    }
 }
 
 
